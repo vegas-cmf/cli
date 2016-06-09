@@ -2,7 +2,7 @@ Vegas CMF CLI
 ===========================
 
 [![Travis Status](https://travis-ci.org/vegas-cmf/cli.svg)](https://travis-ci.org/vegas-cmf/cli)
-[![Coverage Status](https://coveralls.io/repos/github/vegas-cmf/cli/badge.svg)](https://coveralls.io/github/vegas-cmf/cli)
+[![Coverage Status](https://coveralls.io/repos/github/vegas-cmf/cli/badge.svg?branch=master)](https://coveralls.io/github/vegas-cmf/cli?branch=master)
 
 Compatible with: Phalcon >= 2.0
 
