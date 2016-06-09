@@ -23,8 +23,8 @@
         }
     ],
     "require": {
-        "vegas-cmf/mvc": "dev-master",
-        "vegas-cmf/common": "dev-master",
+        "vegas-cmf/mvc": "v2.0.0-beta",
+        "vegas-cmf/common": "v2.0.0-beta",
         "codegyre/robo": "v0.6.0"
     },
     "require-dev": {

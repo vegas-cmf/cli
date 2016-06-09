@@ -9,13 +9,12 @@ try {
     require APP_ROOT . '/bootstrap.php';
 
     $config = require APP_ROOT . '/fixtures/app/config/config.php';
+    $config = new \Phalcon\Config($config);
 
-    //new \Phalcon\Config($config)
-
-    $application = new \Vegas\Cli\Application(\Phalcon\Di::getDefault(), new \Phalcon\Config($config));
+    $application = new \Vegas\Cli\Application(\Phalcon\Di::getDefault(), $config);
     $application->setArguments($argv);
 
-    $application->handle();
+    echo $application->handle()->getOutput();
 } catch (\Exception $ex) {
     echo "\033[47m\033[0;31m" . $ex->getMessage() . "\033[0m";
     echo PHP_EOL;

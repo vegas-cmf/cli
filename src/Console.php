@@ -58,10 +58,12 @@ class Console extends \Phalcon\Cli\Console
         {
             $loader->registerNamespaces(
                 [
-                    $name . '\Forms'        => dirname($module['path']) . '/forms/',
-                    $name . '\Models'       => dirname($module['path']) . '/models/',
-                    $name . '\Services'     => dirname($module['path']) . '/services/',
-                    $name . '\Components'   => dirname($module['path']) . '/components/',
+                    $name . '\Form'         => dirname($module['path']) . '/Form/',
+                    $name . '\Model'        => dirname($module['path']) . '/Model/',
+                    $name . '\Task'         => dirname($module['path']) . '/Task/',
+                    $name . '\Service'      => dirname($module['path']) . '/Service/',
+                    $name . '\Component'    => dirname($module['path']) . '/Component/',
+                    $name . '\Filter'       => dirname($module['path']) . '/Filter/'
                 ], true
             );
         }

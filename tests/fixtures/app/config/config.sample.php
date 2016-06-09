@@ -7,9 +7,12 @@ return [
         'autoload' => [
             'App\Initializer' => TESTS_ROOT_DIR . '/fixtures/app/initializers',
             'App\Shared' => TESTS_ROOT_DIR . '/fixtures/app/shared',
-            'App\View' => TESTS_ROOT_DIR . '/fixtures/app/view'
+            'App\View' => TESTS_ROOT_DIR . '/fixtures/app/view',
+            'App\Task' => TESTS_ROOT_DIR . '/fixtures/app/tasks',
+            'Vegas' => TESTS_ROOT_DIR . '/fixtures/lib/Vegas'
+
         ],
-        'modulesDirectory' => APP_ROOT . '/app/modules',
+        'modulesDirectory' => TESTS_ROOT_DIR . '/fixtures/app/modules',
         'sharedServices' => [
             'App\Shared\ViewCache'
         ],
