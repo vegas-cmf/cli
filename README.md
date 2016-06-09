@@ -1,17 +1,17 @@
 CLI for Vegas CMF 2.0
 ===========================
 
-[![Travis Status](https://travis-ci.org/maniolek/cli.svg)](https://travis-ci.org/maniolek/cli)
-[![Coverage Status](https://coveralls.io/repos/github/maniolek/cli/badge.svg)](https://coveralls.io/github/maniolek/cli)
+[![Travis Status](https://travis-ci.org/vegas-cmf/cli.svg)](https://travis-ci.org/vegas-cmf/cli)
+[![Coverage Status](https://coveralls.io/repos/github/vegas-cmf/cli/badge.svg)](https://coveralls.io/github/vegas-cmf/cli)
 
 Compatible with: Phalcon >= 2.0
 
 ### Getting Started
 
 1. Clone repo
- ```ssh git clone git@github.com:maniolek/cli.git```
+ ```ssh git clone git@github.com:vegas-cmf/cli.git```
 2. Copy cli.php file to `PROJECT_HOME/cli/` path. Use this command:   
- - ```ssh mkdir cli; cp vendor/maniolek/cli/Stub/cli.php cli/```
+ - ```ssh mkdir cli; cp vendor/vegas-cmf/cli/Stub/cli.php cli/```
 3. To run a task, you can use two of following commands:   
  - ```php cli/cli.php app:taskClassName actionName``` - for application task    
  - ```php cli/cli.php app:moduleName:taskClassName actionName``` - for module task   
