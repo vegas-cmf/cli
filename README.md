@@ -1,4 +1,4 @@
-CLI for Vegas CMF 2.0
+Vegas CMF CLI
 ===========================
 
 [![Travis Status](https://travis-ci.org/vegas-cmf/cli.svg)](https://travis-ci.org/vegas-cmf/cli)
